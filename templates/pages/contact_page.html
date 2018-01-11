@@ -1,0 +1,39 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="container">
+    <div class="row">
+        <div class="col-sm-2"></div>
+        <div class="col-sm-3 styler">
+            <hr>
+            <h4><span class="bg-default">{{ mini_title }}</span></h4>
+            <hr>
+            <p>
+                <strong>
+                    Harley's Building (2nd Floor), Oginga Odinga St.
+                </strong>
+                <small>
+                    <hr>
+                    <br>
+                    P.O.Box 964-40100 Kisumu, Kenya. <br>
+                    Email: info@stewarthails.com <br>
+                    Office: (+254) 736 775863 / 703 366092 <br>
+                    <hr>
+                </small>
+            </p>
+        </div>
+        <div class="col-sm-5">
+            <hr>
+            <br>
+            <form>
+                {{ forms }}
+                <br/>
+                <button type="submit" class="btn btn-sm styler">Submit</button>
+                <button type="reset" class="btn btn-sm btn-default">Cancel</button>
+            </form>
+        </div>
+        <div class="col-sm-2"></div>
+    </div>
+</div>
+
+{% endblock content %}

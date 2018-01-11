@@ -1,0 +1,68 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block content %}
+<main role="main">
+    <div class="jumbotron jumbimg">
+        <div class="container">
+            <h1 class="display-4 text-right" style="color: white;">We make you look Good</h1>
+            <p class="lead text-right" style="color: white;">Graphic Design, Printing and Branding.</p>
+            <p><a class="btn btn-lg styler txt-color float-lg-right" href='{% url "about" %}' role="button">Learn more »</a>
+            </p>
+        </div>
+    </div>
+</main>
+
+<div class="container">
+    <blockquote class="blockquote">
+        <p class="mb-0">
+            Stewart Hails Branding is an exciting studio-centred branding and printing services provider.
+            We specialize in identity design, graphic design for print and online media, digital printing,
+            stationery supply and branding solutions. We are situated at Harleys Building, Kisumu, Kenya.
+            We work for clients all over East Africa, across the whole spectrum of..
+            <a class="text-styler txt-color" href='{% url "about" %}'>more... </a>
+        </p>
+    </blockquote>
+    <br>
+    <div class="card-deck">
+        <div class="card">
+            <div class="card-header bg-default">
+                <h4 class="card-title">Mission</h4>
+            </div>
+            <div class="card-block">
+                <div class="container">
+                    <p class="card-text text-justify">
+                        To provide quality print and branding solutions with ethical and moral values while
+                        being dedicated in performing our duties and fostering an environment of continuous
+                        improvement and ensuring strong working relations.
+                    </p>
+                </div>
+            </div>
+            <div class="card-footer">
+                <a class="btn btn-sm styler txt-color" href='{% url "about" %}'>more... </a>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-header bg-default">
+                <h4 class="card-title">Services Rendered</h4>
+            </div>
+            <div class="card-block">
+                <div class="container">
+                    <div class="card-text text-justify">
+                        <ul>
+                            <li>Graphic Design</li>
+                            <li>Billboards</li>
+                            <li>Marketing Strategies</li>
+                            <li>Digital Printing</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="card-footer">
+                <a class="btn btn-sm styler txt-color" href='{% url "service" %}'>more... </a>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock content %}
