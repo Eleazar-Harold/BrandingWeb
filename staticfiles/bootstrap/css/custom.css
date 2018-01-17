@@ -1,0 +1,19 @@
+
+@font-face {
+    font-family: "AvenirLTStd-LightOblique";
+    src:
+    url("cfont/AvenirLTStd-LightOblique.woff") format("woff"),
+    url("cfont/AvenirLTStd-LightOblique.ttf") format("ttf"),
+    url("cfont/AvenirLTStd-LightOblique.otf") format("opentype"),
+    url("cfont/AvenirLTStd-LightOblique.svg#filename") format("svg");
+}
+
+html {
+    font-family: AvenirLTStd-LightOblique !important;
+    --font-family-monospace: AvenirLTStd-LightOblique !important;
+}
+
+body {
+    font-family: AvenirLTStd-LightOblique !important;
+    --font-family-monospace: AvenirLTStd-LightOblique !important;
+}
