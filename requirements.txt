@@ -4,7 +4,7 @@ dj-database-url==0.4.2
 Django==3.2.25
 django-crispy-forms==1.7.0
 enum34==1.1.6
-gunicorn==19.7.1
+gunicorn==22.0.0
 olefile==0.44
 Pillow==10.3.0
 psycopg2==2.7.3.2
